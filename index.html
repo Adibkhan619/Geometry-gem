@@ -61,25 +61,27 @@
                       </div>
                     </div>
                   </div>
+
+                  <!-- Parallelogram card -->
                 <div class="card w-96 bg-base-100 shadow-xl text-center">
-                    <figure><img src="/images/triangle.png" alt="Shoes" /></figure>
+                    <figure><img src="/images/parallelogram.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="text-center text-2xl">Triangle</h2>
-                      <p>Area (A) = 0.5 X b X h</p>
+                      <h2 class="text-center text-2xl">Parallelogram</h2>
+                      <p>Area (A) = b X h</p>
                       <div class="flex justify-evenly m-5">
-                        <input type="text" name="" id="triangle-base" class="bg-slate-100 w-24 pl-2 rounded-md h-8" placeholder="h">
+                        <input type="text" name="" id="Parallelogram-base" class="bg-slate-100 w-24 pl-2 rounded-md h-8" placeholder="h">
                         <span class="ml-2 mr-2
                         ">cm</span>
-                        <input type="text" name="" id="triangle-height" class="bg-slate-100 w-24 pl-2 rounded-md h-8" placeholder="b">
+                        <input type="text" name="" id="Parallelogram-height" class="bg-slate-100 w-24 pl-2 rounded-md h-8" placeholder="b">
                         <span class="ml-2 mr-2
                         ">cm</span>
                       </div>
 
                       <div class="card-actions justify-end">
-                        <button onclick="triangleBtn()" class="btn btn-primary w-full ">Calculate</button>
+                        <button onclick="ParallelogramBtn()" class="btn btn-primary w-full ">Calculate</button>
                       </div>
                       <div class="text-2xl">
-                        <p>Area: <span id="triangleArea"></span> <span>cm</span><sup>2</sup></p>
+                        <p>Area: <span id="parallelogramArea"></span> <span>cm</span><sup>2</sup></p>
                       </div>
                     </div>
                   </div>
@@ -92,5 +94,6 @@
     </main>
     <script src="/script/triangle.js"></script>
     <script src="/script/rectangle.js"></script>
+    <script src="/script/parallelogram.js"></script>
 </body>
 </html>
